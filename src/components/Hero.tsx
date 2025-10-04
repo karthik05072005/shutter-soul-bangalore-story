@@ -13,6 +13,13 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto space-y-6 animate-fade-in-up">
+          <div className="mb-4">
+            <p className="text-lg md:text-xl font-light tracking-widest uppercase text-white/70 mb-2">Welcome to</p>
+            <h2 className="text-6xl md:text-8xl font-bold gradient-gold tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+              Shutter Soul
+            </h2>
+          </div>
+          
           <h1 className="hero-title text-balance leading-tight">
             Capturing Timeless Love Stories in Every Frame
           </h1>
