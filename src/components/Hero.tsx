@@ -1,15 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-wedding.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden film-grain">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden film-grain">
       {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
+      <div className="absolute inset-0 bg-cover bg-center" style={{
+      backgroundImage: `url(${heroImage})`
+    }}>
         <div className="absolute inset-0 bg-gradient-to-b from-accent/60 via-accent/40 to-accent/80" />
       </div>
 
@@ -25,23 +22,11 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-8 py-6 text-lg smooth-transition shadow-elegant group"
-              asChild
-            >
-              <a href="#contact">
-                Book Your Free Consultation
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </a>
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-8 py-6 text-lg smooth-transition shadow-elegant group" asChild>
+              
             </Button>
             
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-2 border-white/80 bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-accent font-medium px-8 py-6 text-lg smooth-transition"
-              asChild
-            >
+            <Button size="lg" variant="outline" className="border-2 border-white/80 bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-accent font-medium px-8 py-6 text-lg smooth-transition" asChild>
               <a href="#portfolio">
                 View Our Portfolio
               </a>
@@ -56,8 +41,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
