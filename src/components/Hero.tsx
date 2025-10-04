@@ -30,7 +30,10 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-8 py-6 text-lg smooth-transition shadow-elegant group" asChild>
-              
+              <a href="#contact">
+                Book Your Free Consultation
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 smooth-transition" />
+              </a>
             </Button>
             
             <Button size="lg" variant="outline" className="border-2 border-white/80 bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-accent font-medium px-8 py-6 text-lg smooth-transition" asChild>

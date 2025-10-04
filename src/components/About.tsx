@@ -42,16 +42,20 @@ const About = () => {
             <div className="pt-4 flex items-center gap-8">
               <div>
                 <div className="text-4xl font-playfair font-bold gradient-gold">
-              </div>
+                  500+
+                </div>
                 <div className="text-sm text-muted-foreground mt-1">
-              </div>
+                  Weddings Captured
+                </div>
               </div>
               <div className="h-12 w-px bg-border" />
               <div>
                 <div className="text-4xl font-playfair font-bold gradient-gold">
-              </div>
+                  5 Years
+                </div>
                 <div className="text-sm text-muted-foreground mt-1">
-              </div>
+                  Experience
+                </div>
               </div>
             </div>
           </div>
