@@ -2,16 +2,12 @@ import portfolio1 from "@/assets/portfolio-1.jpg";
 import portfolio2 from "@/assets/portfolio-2.jpg";
 import portfolio3 from "@/assets/portfolio-3.jpg";
 import portfolio4 from "@/assets/portfolio-4.jpg";
-import portfolio5 from "@/assets/portfolio-5.jpg";
-import portfolio6 from "@/assets/portfolio-6.jpg";
 
 const portfolioImages = [
-  { src: portfolio1, alt: "Candid wedding photography capturing intimate moments in Bangalore", span: "md:row-span-2" },
-  { src: portfolio2, alt: "Romantic couple portraits for destination wedding in India", span: "md:row-span-2" },
-  { src: portfolio3, alt: "Luxury wedding venue decoration and ambiance photography", span: "md:col-span-2" },
-  { src: portfolio4, alt: "Pre-wedding photoshoot in scenic outdoor location", span: "md:col-span-2" },
-  { src: portfolio5, alt: "Traditional Indian wedding ceremony moments", span: "md:row-span-2" },
-  { src: portfolio6, alt: "Elegant wedding reception photography with artistic composition", span: "md:col-span-2 md:row-span-1" },
+  { src: portfolio1, alt: "Traditional Indian wedding ceremony moments in Bangalore", span: "md:row-span-2" },
+  { src: portfolio2, alt: "Pre-wedding couple photoshoot in colorful traditional attire", span: "md:row-span-2" },
+  { src: portfolio3, alt: "Bridal jewelry and mehndi details wedding photography Bangalore", span: "md:col-span-2" },
+  { src: portfolio4, alt: "Romantic pre-wedding photography in scenic outdoor location", span: "md:col-span-2" },
 ];
 
 const Portfolio = () => {
