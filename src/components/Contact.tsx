@@ -195,19 +195,31 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto mt-12 animate-fade-in">
           <Card className="border-border/50 bg-card overflow-hidden">
             <CardContent className="p-0">
-              <div className="aspect-video w-full">
+              <a 
+                href="https://maps.app.goo.gl/5w3MS7NkPXCiS3qg9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block relative aspect-video w-full group"
+              >
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.376460813906!2d77.51600007507654!3d13.009843887309213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d645c8e7471%3A0x9e8f6a5b4c3d2e1f!2sShuttersoul%20Photography!5e0!3m2!1sen!2sin!4v1710180000000!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
+                  style={{ border: 0, pointerEvents: 'none' }}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Shuttersoul Photography - Railway Layout, Dasarahalli, Bangalore"
                   className="w-full h-full"
                 />
-              </div>
+                <div className="absolute inset-0 bg-transparent group-hover:bg-primary/5 smooth-transition flex items-center justify-center">
+                  <div className="bg-white/95 px-6 py-3 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 smooth-transition">
+                    <span className="text-foreground font-medium flex items-center gap-2">
+                      <MapPin className="w-5 h-5 text-primary" />
+                      View on Google Maps
+                    </span>
+                  </div>
+                </div>
+              </a>
             </CardContent>
           </Card>
         </div>
