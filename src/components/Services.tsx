@@ -1,36 +1,31 @@
-import { Camera, Heart, Plane, Users, Sparkles, Image } from "lucide-react";
+import { Camera, Sparkles, Video, Briefcase, MonitorPlay } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const services = [
   {
     icon: Camera,
     title: "Candid Wedding Photography",
-    description: "Unscripted moments, genuine emotions, and spontaneous smiles captured as they happen."
-  },
-  {
-    icon: Heart,
-    title: "Traditional Wedding Photography",
-    description: "Honoring customs and rituals with timeless, elegant portraits that celebrate your heritage."
+    description: "Unscripted moments, genuine emotions, and spontaneous smiles captured as they happen naturally."
   },
   {
     icon: Sparkles,
-    title: "Pre-Wedding Shoots",
+    title: "Pre-Wedding Shoot",
     description: "Romantic outdoor sessions that showcase your unique love story before the big day."
   },
   {
-    icon: Plane,
-    title: "Destination Weddings",
-    description: "From beach sunsets to mountain vistas, we travel anywhere to capture your dream wedding."
+    icon: Video,
+    title: "Cinematic Video",
+    description: "Professionally crafted films that tell your story with stunning visuals and emotional depth."
   },
   {
-    icon: Users,
-    title: "Engagement & Couple Portraits",
-    description: "Intimate sessions that capture the excitement and joy of your engagement journey."
+    icon: Briefcase,
+    title: "Corporate",
+    description: "Professional photography and videography services for corporate events, conferences, and brand content."
   },
   {
-    icon: Image,
-    title: "Wedding Albums & Films",
-    description: "Beautifully designed albums and cinematic films that tell your complete love story."
+    icon: MonitorPlay,
+    title: "LED Wall Rentals",
+    description: "High-quality LED wall displays available for rent to elevate your events and productions."
   }
 ];
 
@@ -45,15 +40,15 @@ const Services = () => {
           </div>
           
           <h2 className="section-title text-foreground mb-6">
-            Comprehensive Wedding Photography Services
+            Professional Photography & Video Services
           </h2>
           
           <p className="text-muted-foreground text-lg">
-            From intimate moments to grand celebrations, we offer a complete range of photography services tailored to your unique love story.
+            From weddings to corporate events, we offer comprehensive photography, videography, and production services.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
