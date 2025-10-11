@@ -36,8 +36,8 @@ const Footer = () => {
                 </a>
               </p>
               <p className="text-white/80">
-                <a href="mailto:hello@shuttersoul.in" className="hover:text-primary smooth-transition">
-                  hello@shuttersoul.in
+                <a href="mailto:shuttersoulbangalore@gmail.com" className="hover:text-primary smooth-transition">
+                  shuttersoulbangalore@gmail.com
                 </a>
               </p>
               <div className="flex items-center gap-4 pt-2">
