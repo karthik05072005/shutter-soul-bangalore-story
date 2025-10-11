@@ -197,7 +197,7 @@ const Contact = () => {
             <CardContent className="p-0">
               <div className="aspect-video w-full">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3764326747454!2d77.51598937507654!3d13.009845987309197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d7e7e7e7e7e%3A0x7e7e7e7e7e7e7e7e!2sShuttersoul%20Photography!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin&q=Shuttersoul+Photography,+Railway+Mens+Empyloyees+Layout+1st+stage,+Jnananjyothinagar,+Railway+Layout,+Dasarahalli,+Bengaluru,+Karnataka+560056"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.376460813906!2d77.51600007507654!3d13.009843887309213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d645c8e7471%3A0x9e8f6a5b4c3d2e1f!2sShuttersoul%20Photography!5e0!3m2!1sen!2sin!4v1710180000000!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
